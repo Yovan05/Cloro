@@ -82,6 +82,9 @@
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnPalindromo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter"/>
+      </Properties>
       <Events>
         <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnPalindromoMouseClicked"/>
       </Events>

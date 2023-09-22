@@ -45,6 +45,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
+        btnPalindromo.setText("Enter");
         btnPalindromo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btnPalindromoMouseClicked(evt);
